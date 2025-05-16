@@ -1,0 +1,101 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventique - Event Planning</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo">Eventique</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h1>Making Moments Magical</h1>
+      <p>Your dream event, our creative touch</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </section>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a passionate team of event planners who love to create unforgettable experiences. Whether it's a wedding, birthday, or corporate event, we've got you covered.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">Weddings</div>
+      <div class="card">Birthdays</div>
+      <div class="card">Corporate Events</div>
+      <div class="card">Themed Parties</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">Image 1</div>
+      <div class="gallery-item">Image 2</div>
+      <div class="gallery-item">Image 3</div>
+      <div class="gallery-item">Image 4</div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <blockquote>“Absolutely perfect! They made our big day magical.” – Jane & John</blockquote>
+    <blockquote>“Creative, professional, and so easy to work with.” – CorpX</blockquote>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="booking" class="section">
+    <h2>Book Your Event</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="date" required />
+      <select>
+        <option>Event Type</option>
+        <option>Wedding</option>
+        <option>Birthday</option>
+        <option>Corporate</option>
+      </select>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Our Blog</h2>
+    <article>
+      <h3>Top Trends in Event Planning 2025</h3>
+      <p>Discover the latest trends making waves in the world of events.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eventique. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
